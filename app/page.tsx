@@ -51,9 +51,10 @@ export default function HomePage() {
               </a>
             </Button>
             <Button size="lg" variant="outline" className="border-white hover:bg-white hover:text-slate-900 text-black" asChild>
-              <a href="https://www.google.com/maps/dir//Auto+Peças,+Bateria+de+Carro,+Baterias+Moura,+Amortecedor+Carro+Correia+Dentada,+Cabo+e+Vela,+Disco+de+Freio,+Kit+de+Embreagem+-+R.+João+Born,+479+-+Centro,+Biguaçu+-+SC,+88160-074/@-27.4911502,-48.7376425,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95274dcb74d4dbc1:0xedad003">
-              <MapPin className="mr-2 h-5 w-5" />
-              Nossa Localização
+              <a href="https://maps.google.com/?q=R.+João+Born,+479,+Centro,+Biguaçu,+SC" target="_blank" rel="noopener noreferrer">
+                <MapPin className="mr-2 h-5 w-5" />
+                Nossa Localização
+              </a>
             </Button>
           </div>
         </div>
