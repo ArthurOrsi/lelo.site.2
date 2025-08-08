@@ -4,6 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Lelo Auto Peças - Biguaçu/SC',
   description: 'Há mais de 25 anos fornecendo peças, acessórios, escapamentos e lubrificantes com qualidade, preço justo e atendimento especializado em Biguaçu e região.',
+  generator: 'v0.dev',
 }
 
 export default function RootLayout({
@@ -12,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <style>{`
 html {

@@ -159,9 +159,8 @@ export default function HomePage() {
               <h4 className="font-semibold text-lg mb-3 text-slate-900">Elétrica</h4>
               <ul className="text-gray-600 space-y-1">
                 <li>• Baterias</li>
-                <li>• Alternadores</li>
-                <li>• Motores de partida</li>
-                <li>• Lâmpadas e fusíveis</li>
+                <li>• Lâmpadas</li>
+                <li>• Fusíveis</li>
               </ul>
             </div>
 
