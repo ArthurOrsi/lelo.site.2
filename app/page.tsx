@@ -12,12 +12,24 @@ export default function HomePage() {
             <div className="flex items-center space-x-3">
               <img src="/logo-lelo-sem-fundo.png" alt="Lelo Auto Peças" className="h-12 w-auto" />
             </div>
-            <nav className="hidden md:flex space-x-6">
+            <nav className="hidden md:flex space-x-6 leading-[1.75em] tracking-normal">
+              <a href="https://www.pitstop.com.br/leloautopecas" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 className="hover:bg-blue-700 px-4 py-2 rounded-lg text-white font-medium transition-colors leading-[1.0rem] bg-green-600">
+                Compre Online
+              </a>
               <a href="#inicio" className="hover:text-green-400 transition-colors">Inicio</a>
               <a href="#sobre" className="hover:text-green-400 transition-colors">Sobre</a>
               <a href="#servicos" className="hover:text-green-400 transition-colors">Serviços</a>
               <a href="#contato" className="hover:text-green-400 transition-colors">Contato</a>
             </nav>
+            <Button className="bg-green-600 hover:bg-green-700 ml-4" asChild>
+              <a href="https://wa.me/5548991803586" target="_blank" rel="noopener noreferrer">
+                <Phone className="mr-2 h-4 w-4" />
+                Contato
+              </a>
+            </Button>
           </div>
         </div>
       </header>
