@@ -2,9 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Lelo Auto Peças - Biguaçu/SC',
+  description: 'Há mais de 25 anos fornecendo peças, acessórios, escapamentos e lubrificantes com qualidade, preço justo e atendimento especializado em Biguaçu e região.',
 }
 
 export default function RootLayout({
